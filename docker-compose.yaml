@@ -3,7 +3,7 @@ version: '2'
 services:
   portainer:
     container_name: portainer
-    image: portainer/portainer:1.23.2
+    image: portainer/portainer:alpine
     restart: always
     ports:
       - "9000:9000"
